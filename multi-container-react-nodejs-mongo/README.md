@@ -13,5 +13,4 @@
 ## Access the front-end:
 * Use web-browser and goto: http://localhost:3000
 
-# Attension: change the passwords in /env for both backend.env and mongo.env (user name and password (values) must be identical in backend.env and mongo.env) 
-# since these are available for the whole world to see.
+# Attension: change the passwords in /env for both backend.env and mongo.env (user name and password (values) must be identical in backend.env and mongo.env) since these are available for the whole world to see.
