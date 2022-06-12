@@ -3,11 +3,11 @@
 The environmnet includes the following containers:
 NGINX, PHP-FPM-8.1, MySql, Composer(Installing Laravel), Artisan, npm
 
-Requirements:
+## Requirements:
 Docker Engine
 Docker Compose
 
-##Instuctions For Building And Running the environmnet:
+## Instuctions For Building And Running the environmnet:
 * Make sure you have /src folder, and run only the Composer container from the docker-compose.yaml file to make the source code of the application.
 *sudo docker-compose run --rm composer create-project --prefer-dist laravel/laravel .
 
