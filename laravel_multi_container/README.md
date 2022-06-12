@@ -13,13 +13,13 @@ Docker Compose
  * [LINUX] There is an issue when /src is owned by root, it is recommanded to create the project under different user.
 
 * Change the DB section inside /src/.env acording to the ENV variables at /env/mysql.env
-*The DB section should look like this if we leave the defaults(Don't leave the defalts!):
-  *DB_CONNECTION=mysql
-  *DB_HOST=mysql      (Please note that this is the Myql container-name here)
-  *DB_PORT=3306
-  *DB_DATABASE=homestead
-  *DB_USERNAME=homestead
-  *DB_PASSWORD=secret
+* The DB section should look like this if we leave the defaults(Don't leave the defalts!):
+  * DB_CONNECTION=mysql
+  * DB_HOST=mysql      (Please note that this is the Myql container-name here)
+  * DB_PORT=3306
+  * DB_DATABASE=homestead
+  * DB_USERNAME=homestead
+  * DB_PASSWORD=secret
 
 * After /src is populated and .env modifed we can run the containers which suppose to stay alive: nginx, php, mysql(without artisan and npm):
   * sudo docker-compose up --build server php mysql
