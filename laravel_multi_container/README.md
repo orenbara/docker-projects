@@ -1,6 +1,6 @@
 # Laravel Multi-Container
 This project was created following a Udemy Docker course.
-
+This project includes the source code (docker-compose, dockerfiles, etc...) and instruction to run the docker
 The environmnet includes the following containers:
 NGINX, PHP-FPM-8.1, MySql, Composer(Installing Laravel), Artisan, npm
 
